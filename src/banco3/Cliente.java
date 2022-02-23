@@ -12,14 +12,14 @@ public class Cliente implements Serializable{
     
      private String nombre, apellidos;  
      private String direccion, localidad;   //Atributos de los objetos de la clase Cliente
-     private Date fNacimiento;
+     private Date fechaNacimiento;
      
-       Cliente(String aNombre, String aApellidos, String aDireccion, String aLocalidad, Date aFNacimiento){
+       Cliente(String aNombre, String aApellidos, String aDireccion, String aLocalidad, Date aFechaNacimiento){
          nombre = aNombre;   
          apellidos = aApellidos;     
          direccion = aDireccion;    //Constructor que recibe como parámetro los datos de los argumentos
          localidad = aLocalidad;   
-         fNacimiento = aFNacimiento;   
+         fechaNacimiento = aFechaNacimiento;   
      }
        
        
