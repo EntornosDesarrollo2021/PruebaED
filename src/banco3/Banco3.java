@@ -80,7 +80,7 @@ public class Banco3 {
             return;   // Si no existe el fichero con los datos de la cuenta el programa termina
         }
         if (c.leerSaldo() < mi) //  No se permite sacar más dinero del que hay en la cuenta  
-            System.out.println("Saldo insuficiente");
+            System.out.println("Saldo insuficiente para poder sacar dinero");
         else     
             c.reintegro(mi); 
        

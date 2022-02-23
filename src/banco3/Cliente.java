@@ -20,6 +20,7 @@ public class Cliente implements Serializable{
          direccion = aDireccion;    //Constructor que recibe como parámetro los datos de los argumentos
          localidad = aLocalidad;   
          fechaNacimiento = aFechaNacimiento;   
+
      }
        
        
